@@ -14,7 +14,7 @@ Add a remote repository URL named `origin` [alias] to your local Git repository.
 add new url with name origin
 ```bash
 git remote add origin
-``` 
+```
 
 chnage alreay exist origin url
 ```bash
@@ -226,7 +226,7 @@ if already available this backup refs/original/ folder as backup in git repo, re
 
 ```bash
 rm -rf .git/refs/original/
-
+```
 For a Single Commit
 Change author name and email for a specific commit.
 
