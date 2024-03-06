@@ -222,6 +222,10 @@ git stash apply
 ## Advanced 
 
 #### Change Author Name in Commit(s)
+if already available this backup refs/original/ folder as backup in git repo, remove this backup folder using. Otherwise it will block you to change the commit author name and email id:
+
+```bash
+rm -rf .git/refs/original/
 
 For a Single Commit
 Change author name and email for a specific commit.
