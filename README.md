@@ -116,7 +116,10 @@ Create new brnach from your local
 git checkout -b <branch_name>
 ```
 
-
+Fix is .gitingore file not track your .env 
+```bash
+git rm .env --cached
+```
 
 ### Merge Process
 
